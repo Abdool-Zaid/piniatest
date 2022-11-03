@@ -57,7 +57,7 @@ let addNewToDo = () => {
 <template>
   <h1>todo</h1>
   <form type="submit ">
-    <input type="text" name="todo" id="NewToDO" />
+    <input type="text" name="todo" id="NewToDO"  aria-label="todo"/>
     <button @click.prevent="addNewToDo()">add</button>
   </form>
   <ul id="displayTodos"></ul>
